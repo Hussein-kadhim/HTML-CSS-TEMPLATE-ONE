@@ -109,6 +109,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
+    cursor: pointer;
 }
 
 .header .links .icon span {
@@ -153,9 +154,10 @@ body {
     top: -20px;
 }
 
-.header .links:hover ul {
-    display: block;
+.nav-links {
+    display: block !important;
 }
+
 
 .header .links ul li a {
     display: block;
