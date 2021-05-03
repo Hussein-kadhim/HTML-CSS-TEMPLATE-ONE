@@ -500,9 +500,11 @@ body {
 }
 
 .contact .info .social i {
+    margin-top: 20px;
     margin-left: 10px;
     color: var(--secondary-color);
 }
+
 
 @media (max-width: 767px) {
 
@@ -511,6 +513,8 @@ body {
         font-size: 25px;
     }
 }
+
+
 
 /* End Contact  */
 /* Start Footer */
@@ -525,7 +529,6 @@ body {
 
 .footer span {
     font-weight: bold;
-    color: var(--main-color);
 }
 
 /* End Footer */
