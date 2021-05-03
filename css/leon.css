@@ -339,10 +339,13 @@ body {
 
 .portfolio .portfolio-content .card img {
     max-width: 100%;
+    height: auto;
 }
 
 .portfolio .portfolio-content .card .info {
     padding: 20px;
+    text-align: center;
+
 }
 
 .portfolio .portfolio-content .card .info h3 {
@@ -378,6 +381,8 @@ body {
 
 .about .about-content .image img {
     max-width: 100%;
+    width: 270px;
+    height: auto;
 }
 
 @media (max-width: 991px) {
