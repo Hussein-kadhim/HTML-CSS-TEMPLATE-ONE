@@ -1,4 +1,12 @@
 /* Start Variabales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
 :root {
     --main-color: #10cab7;
     --secondary-color: #2c4755;
@@ -83,7 +91,7 @@ body {
 /*  Start Header */
 
 .header {
-    padding: 20px;
+    padding: 10px;
 }
 
 .header .container {
@@ -93,7 +101,7 @@ body {
 }
 
 .header .logo {
-    width: 60px;
+    width: 35px;
 }
 
 .header .links {
@@ -178,10 +186,33 @@ body {
 /*  End Header */
 /* Start Landing Page */
 .landing {
-    background-image: url(../Images/landing.jpg);
     background-size: cover;
     height: calc(100vh - 64px);
     position: relative;
+}
+
+.overlay::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .8);
+    z-index: 1;
+}
+
+.landing .landing-slide {
+    background-size: cover;
+    height: calc(100vh - 64px);
+    position: relative;
+    object-fit: cover;
+}
+
+@media(max-width:768px) {
+    .landing .landing-slide {
+        width: 100%;
+    }
 }
 
 .landing .intro-text {
@@ -192,6 +223,7 @@ body {
     transform: translate(-50%, -50%);
     width: 320px;
     max-width: 100%;
+    z-index: 2;
 }
 
 .landing .intro-text h1 {
@@ -204,6 +236,7 @@ body {
 .landing .intro-text p {
     font-size: 19px;
     line-height: 1.8;
+    color: white;
 }
 
 /* End Landing Page */
@@ -309,6 +342,7 @@ body {
 @media (max-width: 1199px) {
     .image-column {
         display: none;
+
     }
 }
 
@@ -335,6 +369,7 @@ body {
 
 .portfolio .portfolio-content .card {
     background-color: white;
+    cursor: pointer;
 }
 
 .portfolio .portfolio-content .card img {
@@ -443,6 +478,7 @@ body {
 
 .about .about-content .image img {
     max-width: 100%;
+
 }
 
 .about .about-content .text {
@@ -451,7 +487,7 @@ body {
 
 .about .about-content .text p:first-of-type {
     font-weight: bold;
-    line-height: 2;
+    line-height: 1.6;
     margin-bottom: 50px;
 }
 
