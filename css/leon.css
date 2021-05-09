@@ -554,6 +554,10 @@ body {
     font-size: 18px;
 }
 
+.contact .social .social-media-title {
+    font-weight: 500;
+}
+
 .contact .info .social i {
     margin-top: 20px;
     margin-left: 10px;
