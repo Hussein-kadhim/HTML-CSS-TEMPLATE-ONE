@@ -317,7 +317,8 @@ body {
 }
 
 .services .services-content .srv h3 {
-    margin: 0 0 20px;
+    font-weight: 800;
+    margin: 0 0 15px;
 }
 
 .services .services-content .srv p {
