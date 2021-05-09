@@ -495,12 +495,13 @@ body {
 
 .about .about-content .text {
     flex-basis: calc(100% - 500px);
+    padding-top: 45px;
 }
 
 .about .about-content .text p:first-of-type {
     font-weight: bold;
     line-height: 1.6;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .about .about-content .text hr {
