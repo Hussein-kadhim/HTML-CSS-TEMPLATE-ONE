@@ -322,8 +322,8 @@ body {
 }
 
 .services .services-content .srv p {
-    color: #333;
-    font-weight: 300;
+    color: #000;
+    font-weight: 500;
     line-height: 1.6;
 }
 
