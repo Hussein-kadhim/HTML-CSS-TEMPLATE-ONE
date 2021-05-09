@@ -62,12 +62,13 @@ body {
 /* End Global Rules */
 /* Start Components*/
 .special-heading {
-    color: #ebeced;
+    color: #585858;
     font-size: 100px;
     text-align: center;
     font-weight: 800;
     letter-spacing: -3px;
     margin: 0;
+    text-transform: capitalize;
 }
 
 .special-heading+p {
