@@ -398,9 +398,11 @@ body {
 }
 
 .portfolio .portfolio-content .card .info p {
-    color: #777;
+    color: #000;
     line-height: 1.6;
-    margin-bottom: 0;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    font-weight: 500;
 }
 
 /* End Portfolio  */
