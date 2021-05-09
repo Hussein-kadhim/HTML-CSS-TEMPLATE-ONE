@@ -182,7 +182,7 @@ body {
 }
 
 .header .links ul li:not(:last-child) a {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 /*  End Header */
