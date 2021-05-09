@@ -510,8 +510,9 @@ body {
 }
 
 .about .about-content .text p:last-of-type {
-    line-height: 2;
-    color: #777;
+    line-height: 1.6;
+    color: #000;
+    font-weight: 500;
 }
 
 /* End About  */
