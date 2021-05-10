@@ -8,6 +8,8 @@ const navLinks = document.querySelector('.header .links ul');
 
 const images = [image1, image2, image3]; // Images Array
 
+const footerText = document.getElementById('copyright');
+
 // Add the navlinks class to the ul on click
 
 icon.addEventListener('click', function () {
@@ -34,3 +36,5 @@ function changeImg() {
 
 // Run function when page loads
 window.onload = changeImg;
+
+footerText.textContent = 'Created by | © ' + ' ' + new Date().getFullYear();

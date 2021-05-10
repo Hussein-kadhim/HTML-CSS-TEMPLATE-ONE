@@ -586,7 +586,7 @@ body {
     font-size: 18px;
 }
 
-.footer span {
+.footer .name {
     font-weight: bold;
 }
 
