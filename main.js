@@ -37,4 +37,5 @@ function changeImg() {
 // Run function when page loads
 window.onload = changeImg;
 
-footerText.textContent = 'Created by | © ' + ' ' + new Date().getFullYear();
+footerText.textContent =
+  'Created by Hussein | © ' + ' ' + new Date().getFullYear();
